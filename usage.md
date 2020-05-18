@@ -1,6 +1,6 @@
 # Usage of Sycor.Back2Work
 ## Scancodes for check in / check out
-When you like users to check in into a space by scanning a code with their smartphone, you have to generate a code for each space and fix it somewhere close to the entrance that users may easily check in.
+When you like users to check in into a space by scanning a code with their smartphone, you have to generate a code for each space and fix it somewhere close to the entrance that users may easily check in. As described in [Configure.md](Configure.md) we distiguish between office spaces and public spaces. The only difference is, that users may make reserverations for office spaces and not for public spaces. However, you should generate scancodes for office and public spaces (like coffee machine) to enable users to check in to public spaces.
 
 As PowerApps can read different codes ([more Information](https://docs.microsoft.com/en-us/powerapps/maker/canvas-apps/controls/control-new-barcode-scanner)) you are free to choose your favorite code. However, we recommend using QR codes. Only the title field of a space must be coded, no other information are needed.
 
