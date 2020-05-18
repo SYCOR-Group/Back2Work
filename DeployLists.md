@@ -16,18 +16,20 @@ Please keep in mind that this solution was developed and tested using an English
 
 ## Generate lists
 Follow these steps to generate the lists for the data backend of this solution:
-* Open  your Office365 PowerAutomate Admin Center and navigate to MyFlows and than hit the Import-Button
+* Open  your Office365 PowerAutomate Admin Center (https://emea.flow.microsoft.com/), select the correct environment and navigate to MyFlows and than hit the Import-Button
 
 ![ImportFlowScreen](images/ImportFlow1.png)
-* Select the just downloaded file "Sycor.Back2WorkDeployList.zip" for upload
+* Extract the just downloaded file "sycor-back2work.zip"
+* Select the just downloaded file "sycor.Back2Work.DeploySPLists.zip" for upload
 * Review the package content and make the necessary changes and import the package
 	* Choose as import option for the flow object "Create as new"
-	* Select a SharePoint Site Collection Admin for the SharePoint Connection
+	* Select or create a SharePoint Connection as SharePoint Site Collection Admin
 	
 ![ConfigureFlowScreen](images/ImportFlow2.png)
 
 * Now open the flow in edit mode and search for the step "Initialize Site URI Prefix"
 * Enter the path to your site in the value field
+* Change the connection to your Sharepoint Connection in all 'Connection' Steps (All errors are shown in 'validate flow')
 
 ![SetURI](images/SetURI.png)
 
