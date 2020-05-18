@@ -35,7 +35,7 @@ Often there is more than one building on one site. For a better selection of spa
 ### Space
 For reservation and check in / check out we are using the term space rather than office. This is because space is more general and it is up to users to define what are the borders of a space. Maybe there are huge offices that are divided into multiple "spaces" you are having the more general term. Space might be configured as public. When the checkbox "public" is checked, no reservations can be made for this space. If you are having a coffee kitchen you may want to define this as "public". So employees may check in to this space but cannot make a reservation.
 ### Shift
-For reservations the system is using shifts (and not start- and end time of planned work). This is because it will be more user friendly to make a reservation for a shift than a cumbersome selection of start and end time. And it will be easier to evaluate which spaces can be reserved. The system allows to define a maximum of 2 shifts.
+For reservations the system is using shifts (and not start- and end time of planned work). This is because it will be more user friendly to make a reservation for a shift than a cumbersome selection of start and end time. And it will be easier to evaluate which spaces can be reserved. 
 ### Maximum capacity
 For each non public space you define a maximum capacity. When the maximum capacity for reservations of one shift is reached, no further reservation for this space is possible.
   
