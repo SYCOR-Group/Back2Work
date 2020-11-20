@@ -6,7 +6,7 @@ The end user PowerApp is what employees will see on their PowerApp App on their 
 
 2. Select a valid Outlook connection for your environment and hit Import 
 
-![ConfigureImport](images/Configure1.md).
+![ConfigureImport](images/Configure1.png).
 
 3. Now you have to connect the app with our SharePoint data model. For this task you will have to open the app in PowerApps Studio. On the top of the screen you will find a link to PowerApps Studio. 
 
